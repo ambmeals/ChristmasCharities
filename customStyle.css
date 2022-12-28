@@ -1,5 +1,6 @@
 html {
     font-size: 14px;
+    font-family: Cooper Black, Helvetica, Arial;
 }
 
 .card {
@@ -60,6 +61,7 @@ html {
 
 body {
     margin-bottom: 60px;
+    font-family: Cooper Black, Helvetica, Arial!important;
 }
 
 :root {
