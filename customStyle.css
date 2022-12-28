@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
 html {
     font-size: 14px;
     font-family: Cooper Black, Helvetica, Arial;
@@ -68,6 +70,40 @@ body {
 :root {
     --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
 }
+
+h1 { 
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 180px; 
+    font-family: 'Sacramento', cursive;
+    letter-spacing: -1px;
+    font-weight: bold !important;
+    font-size: calc(2rem + 1.5vw) !important;
+  }
+
+  .glassNav {
+    --bs-bg-opacity: 1;
+    background-color: transparent!important;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+  
+  h1::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+  }
+  
+  /* Set the psuedoelement beneath parent */
+  h1::before {
+    z-index: -1;
+    content: attr(data-content);
+    text-stroke: 10px hsl(357, 80%, 75%);
+    font-weight: bold;
+  }
 
 .card {
     border: 1px solid #dd2476;
