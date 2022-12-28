@@ -8,10 +8,11 @@ html {
 .card {
     width: 20rem !important;
     border-radius: .25rem !important;
+    border: none !important;
 }
 
 .titleText {
-    font-weight: 100;
+    font-weight: 600;
     font-size: 24px;
     line-height: 0.6;
     text-indent: -11px;
