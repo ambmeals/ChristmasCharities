@@ -4,12 +4,19 @@ html {
 
   .card {
     width: 18rem!important;
+    border-radius: .25rem;
+  }
+
+  div.card {
+    width: 18rem!important;
+    border-radius: .25rem;
   }
 
   .card-title.mb-2 {
     background-color: aquamarine;
     height: 10%;
     padding-top: 5%;
+    border-radius: .25rem;
   }
 
   /* width */
