@@ -7,19 +7,14 @@ html {
 
 .card {
     width: 20rem !important;
-    border-radius: .25rem;
+    border-radius: .25rem !important;
 }
 
-div.card {
-    width: 18rem !important;
-    border-radius: .25rem;
-}
 
 .card-title.mb-2 {
     background-color: pink;
     height: 10%;
     padding-top: 5%;
-    border-radius: .25rem;
 }
 
 .btn {
